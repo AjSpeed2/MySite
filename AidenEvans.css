@@ -1,4 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
 
+
+.image-link {
+  text-decoration: none;
+}
 .intro {
   width: 0%;
   height: 0vh;
