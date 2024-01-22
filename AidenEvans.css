@@ -2,6 +2,38 @@ html {
   scroll-behavior: smooth;
 }
 
+.button {
+  color:red;
+}
+
+.button:hover {
+  color:red;
+}
+
+li::marker {
+  color:white;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.1em;
+  border:none;
+  background-color: #00FF00;
+  color:#00FF00;
+  border-color: #00FF00;
+}
+
+.dot {
+  height: 1em;
+  width: 4%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+}
 
 .image-link {
   text-decoration: none;
@@ -11,15 +43,22 @@ html {
   height: 0vh;
   
   animation-name: introBackground, fadeSiteIn;
-  animation-delay: 0s, 3s;
-  animation-duration: 3s, 1s;
+  animation-delay: 0s, 2.5s;
+  animation-duration: 2.5s, 1s;
   animation-timing-function: ease-in, ease-out;
 }
 .introText {
   opacity: 0%;
   animation-name: introText;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-in;
+  color:#00FF00;
+  font-family: Righteous;
+}
+.test {
+  color: black;
+  -webkit-text-stroke-width: 1.1px; 
+  -webkit-text-stroke-color: #00FF00;
 }
 
 @keyframes introBackground {
@@ -39,3 +78,13 @@ html {
   from {height: 100vh;}
   to {height: 0vh;}
 }
+
+@font-face {
+  font-family: Library;
+  src: url(Library\ 3\ am.otf);
+}
+
+@font-face {
+  font-family: Righteous;
+  src: url(Righteous.ttf);
+} 
