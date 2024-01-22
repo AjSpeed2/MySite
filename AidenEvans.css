@@ -38,6 +38,11 @@ hr {
 .image-link {
   text-decoration: none;
 }
+
+.contain {
+  max-height: 3em;
+}
+
 .intro {
   width: 0%;
   height: 0vh;
@@ -51,6 +56,25 @@ hr {
   opacity: 0%;
   animation-name: introText;
   animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+  color:#00FF00;
+  font-family: Righteous;
+}
+.introText2 {
+  opacity: 0%;
+  animation-name: introText;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-in;
+  color:#00FF00;
+  font-family: Righteous;
+}
+.introText3 {
+  opacity: 0%;
+  animation-name: introText;
+  animation-duration: 2s;
+  animation-delay: 0.2s;
   animation-timing-function: ease-in;
   color:#00FF00;
   font-family: Righteous;
@@ -69,8 +93,7 @@ hr {
 
 }
 @keyframes introText {
-  0% {opacity: 0%;}
-  25% {opacity: 100%;}
+  0% {opacity: 100%;}
   50% {opacity: 100%;}
   90% {opacity: 0%;}
 }
