@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="AidenEvans.css">
     <link rel="icon" type="image/x-icon" href="RealGhostSkin.png">
   </head>
-  <body class="bg-black" style="overflow-x:hidden">
+  <body class="bg-black">
     <div class="intro bg-black">
         <p class="h1 text-center text-green introText" style="padding-top: 10vh; font-size:10vw;">
           HEY, I'M AIDEN
         </p>
-        <p class="h1 text-center text-green introText" style="font-size:10vw;">
+        <p class="h1 text-center text-green introText outline" style="font-size:10vw;">
           HEY, I'M AIDEN
         </p>
         <p class="h1 text-center text-green introText" style="font-size:10vw;">
@@ -26,134 +26,151 @@
     <!--This is the home section-->
     <nav class="navbar navbar-expand-lg pt-3" id="Home">
       <div class="container-fluid">
-        <div class="container-fluid px-2 pe-0">
-          <div class="container">
-            <p class="h1 text-light">Aiden J. Evans</p>
-          </div>
+        <div class="container-fluid p-2 ">
+          <p class="h1 text-light"><img src="RealGhostSkin.png" style="vertical-align: middle; width:1.2em;"><span class="align-middle" style="text-decoration: underline #Eda6f9">Aiden J. Evans</span></p>
+          
+          
         </div>
-          <!-- Add Twitter -->
-        
+       
         
         <!-- Then Add Custom animations for the buttons-->
         <ul class="navbar-nav p-0 container-fixed ms-2">
           <div class="d-inline-flex flex-row-reverse">
-            <li class="nav-item m-1 px-1 border">
-              <a class="nav-link text-light text-center" href="#Home">Home</a>
-            </li>
-            <li class="nav-item m-1 px-1 border">
-              <a class="nav-link text-light text-center" href="#About">About</a>
-            </li>
-            <li class="nav-item m-1 px-1 border">
-              <a class="nav-link text-center text-light" href="#Projects">Projects</a>
-            </li>
-            <li class="nav-item m-1 px-1 border">
+            <li class="nav-item m-1 px-1 border rounded">
               <a class="nav-link text-center text-light" href="#Contact">Contact</a>
             </li>
+            <li class="nav-item m-1 px-1 border rounded">
+              <a class="nav-link text-center text-light" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item m-1 px-1 border rounded">
+              <a class="nav-link text-center text-light" href="#About">About</a>
+            </li>
+            <li class="nav-item m-1 px-1 border rounded">
+              <a class="nav-link text-center text-light" href="#Home">Home</a>
+            </li>
+            
+            
+            
           </div>
         </ul>
       </div>
     </nav>
     <hr />
-    <!-- Figure out how you will structure the website-->
-    <div class="container-fluid">
-      <p class="display-3 text-center text-light p-4">
-        <span>Game Developer. </span>
-        <span>Software Engineer. </span>
-        <span>Front-End. </span>
+    <div class="container-fluid my-3" id="#Home">
+      <p class="display-2 text-center text-light px-4 underline-blue">
+        Game Developer.
+        Software Engineer. 
+        Front-End. 
       </p>
     </div>
-    <div class="container-fluid">
+    <div class="container mb-3">
       <div class="row px-5">
-        <div class="col-sm-8 px-5 py-2 align-middle">
-          <p class="display-3 text-light text-start mb-4">Experience:</p>
-          <ul>
+        <div class="col-sm-8 px-5 py-2 text-center">
+          <p class="display-4 text-light text-center mb-4">Experience:</p>
+          <ul style="list-style-position:outside; text-align: left; display: inline-block;">
             <li>
-              <p class="h4 text-light text-start">Game Development with Unity and C# for 3+ years.</p>
+              <p class="h4 text-light">Game Development with Unity and C# for 3+ years.</p>
             </li>
             <li>
-              <p class="h4 text-light text-start">Machine Learning eperience with Unity Package ML-Agents</p>
+              <p class="h4 text-light">Machine Learning eperience with Unity Package ML-Agents</p>
             </li>
             <li>
-              <p class="h4 text-light text-start">Software development with Python and Java</p>
+              <p class="h4 text-light">Software development with Python and Java</p>
             </li>
             <li>
-              <p class="h4 text-light text-start">Front end web-development with HTML, CSS, JavaScript, and  Bootstrap</p>
+              <p class="h4 text-light">Front end web-development with HTML, CSS, JavaScript, and  Bootstrap</p>
             </li>
           </ul>
           
         </div>
         <!-- Add border to this -->
-        <div class="col-sm-4 px-2 py-2 border border-danger">
-          <div id="demo" class="carousel slide container" data-bs-ride="carousel">
-  
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            </div>
-          
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="headshot.jpg" alt="Los Angeles" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="fullbody.jpg" alt="Chicago" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="footy.jpg" alt="New York" class="d-block w-100">
-              </div>
-            </div>
-          
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </button>
-          </div>
+        <div class="col-sm-4 p-2">
+          <img class="ratio photo" src="headshot.jpg">
         </div>
       </div>
     </div>
     
     <!--About Section-->
     <hr />
-    <div class="container-fluid" id="About">
-        <p class="display-3 text-light text-center">About.</p>
+    <div class="container-fluid my-3" id="About">
+      <p class="display-3 text-light text-center underline-blue">About.</p>
+    </div>
+    <div class="container mb-3">
+      <div class="row px-5">
+        <div class="col-sm-4 p-2">
+          <img class="ratio photo" src="footy.jpg">
+        </div>
+        <div class="col-sm-8 px-5 py-2 text-start">
+          <p class="h4 text-light">I am a first year student-athlete at Trinity Western University majoring in Computer Science.</p>
+          <p class="h4 text-light">I start at fullback for the varsity soccer team.</p>
+          <p class="h4 text-light">Grew up playing Nintendo and EA games such as the Super Mario Galaxy and Plants Vs. Zombies Series.</p>
+          <p class="h4 text-light">Avid game developer and machine learning enthusist for multiple years.</p>
+          <p class="h4 text-light">One of career goals is to use machine learning to develop user-friendly and self-adjusting AI for games.</p>
+          <p class="h4 text-light">I am currently looking for a summer internship to begin my career in game-development and software engineering.</p>
+          
+        </div>
+        
+      </div>
     </div>
     <!--Project Section-->
     <hr />
-    <div class="container-fluid" id="Projects">
-      <p class="display-3 text-light text-center">Projects.</p>
+    <div class="container-fluid my-4" id="Projects">
+      <p class="display-3 text-light text-center underline-blue">Projects.</p>
+    </div>
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-sm-6 p-1 text-center">
+          <div>
+            <a href="AidenEvans-LAETUS.html">
+              <img class="img-fluid" src="header.jpg">
+            </a>
+            
+          </div>
+        </div>
+        <div class="col-sm-6 p-1 text-center">
+          <div>
+            <img class="img-fluid" src="headerML.jpg">
+          </div>
+        </div>
+      </div>
+      
     </div>
     <hr />
-    <div class="container-fluid" id="Contact">
-      <p class="display-3 text-light text-center">Contact.</p>
+    <div class="container-fluid my-3" id="Contact">
+      <p class="display-3 text-light text-center underline-blue">Contact.</p>
     </div>
     <!-- Contact Section-->
-    <div class="container-fluid">
-      <div class="d-flex border border-white">
-        <div class="container">
-          <a class="image-link" href="https://github.com/AjSpeed2">
-            <img class="px-2 mx-1 ratio ratio-1x1" src="GitHubLogoWhite.png" alt="GitHub Logo" style="width: 12%; height: 100%;">
-          </a>
-        </div>
-        <div class="container">
-          <a class="image-link" href="https://leetcode.com/AjSpeed2/">
-            <img class="px-2  mx-1 ratio ratio-1x1" src="LeetcodeLogo.png" alt="Leetcode Logo" style="width: 12%; height: 100%;">
-          </a>
-        </div>
-        <div class="container">
-          <a class="image-link" href="https://store.steampowered.com/app/1897510/LAETUS/">
-            <img class="px-2 mx-1 ratio ratio-1x1" src="SteamLogo.png" alt="Steam Logo" style="width: 12%; height: 100%;">
-          </a>
-        </div>
+    <div class="container text-center">
+      <p class="h4 text-light">To contact me, feel free to email me using <a href="mailto: aidenjevans@hotmail.com">my email</a> or connect with me through one of my socials.</p>
+    </div>
+    <div class="container text-center my-4">
+      <div class="d-flex justify-content-center row">
         
-
+        <div class="col-sm-1">
+          <a class="image-link p-2" href="https://github.com/AjSpeed2">
+            <img class="img-fluid" src="GitHubLogoWhite.png" alt="GitHub Logo"></a>
+        </div>  
+        <div class="col-sm-1">
+          <a class="image-link p-2" href="https://leetcode.com/AjSpeed2/">
+            <img class="img-fluid" src="LeetcodeLogo.png" alt="Leetcode Logo">
+          </a>
+        </div> 
+        <div class="col-sm-1">
+          <a class="image-link p-2" href="https://store.steampowered.com/app/1897510/LAETUS/">
+            <img class="img-fluid" src="SteamLogo.png" alt="Steam Logo">
+          </a>
+        </div>
+        <div class="col-sm-1">
+          <a class="image-link p-2" href="https://twitter.com/ajspeedgames">
+            <img class="img-fluid" src="X.png" alt="X Logo">
+          </a>
+        </div>
+        <div class="col-sm-1">
+          <a class="image-link p-2" href="https://www.youtube.com/channel/UCYczHxyDP_Lc7lsU9UhmnWA">
+            <img class="img-fluid" src="YouTubeLogo.png" alt="X Logo">
+          </a>
+        </div>
       </div>
-
     </div>
     <script src="AidenEvans.js"></script>
   </body>

@@ -1,9 +1,48 @@
 html {
   scroll-behavior: smooth;
 }
+.introText {
+  opacity: 0%;
+  animation-name: introText;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+  color: #0486b6;
+  font-family: Righteous;
+}
+.introText2 {
+  opacity: 0%;
+  animation-name: introText;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-in;
+  color:#Eda6f9;
+  font-family: Righteous;
+}
+.introText3 {
+  opacity: 0%;
+  animation-name: introText;
+  animation-duration: 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: ease-in;
+  color:#0486b6;
+  font-family: Righteous;
+}
 
+body {
+  font-family: Newake;
+}
 .button {
   color:red;
+}
+
+.text-pink {
+  color:#Eda6f9;
+}
+
+.text-blue {
+  color:#01b6f8;
+  border-color: #01b6f8 !important;
 }
 
 .button:hover {
@@ -19,11 +58,10 @@ hr {
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  height: 0.1em;
-  border:none;
-  background-color: #00FF00;
-  color:#00FF00;
-  border-color: #00FF00;
+  height: 0.1em;;
+  background-color: #Eda6f9 !important;
+  color:#Eda6f9 !important;
+  border-color: #Eda6f9 !important;
 }
 
 .dot {
@@ -43,6 +81,10 @@ hr {
   max-height: 3em;
 }
 
+.underline-blue {
+  text-decoration: underline #0486b6
+}
+
 .intro {
   width: 0%;
   height: 0vh;
@@ -52,37 +94,18 @@ hr {
   animation-duration: 2.5s, 1s;
   animation-timing-function: ease-in, ease-out;
 }
-.introText {
-  opacity: 0%;
-  animation-name: introText;
-  animation-duration: 2s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in;
-  color:#00FF00;
-  font-family: Righteous;
+.photo {
+  border: 10px solid #Eda6f9;
+  border-radius: 100%;
 }
-.introText2 {
-  opacity: 0%;
-  animation-name: introText;
-  animation-duration: 2s;
-  animation-delay: 0.1s;
-  animation-timing-function: ease-in;
-  color:#00FF00;
-  font-family: Righteous;
-}
-.introText3 {
-  opacity: 0%;
-  animation-name: introText;
-  animation-duration: 2s;
-  animation-delay: 0.2s;
-  animation-timing-function: ease-in;
-  color:#00FF00;
-  font-family: Righteous;
-}
-.test {
+.outline {
   color: black;
-  -webkit-text-stroke-width: 1.1px; 
-  -webkit-text-stroke-color: #00FF00;
+  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-color: #Eda6f9;
+}
+.border-pink {
+  color: black;
+  border: 10px solid #Eda6f9;
 }
 
 @keyframes introBackground {
@@ -102,12 +125,12 @@ hr {
   to {height: 0vh;}
 }
 
-@font-face {
-  font-family: Library;
-  src: url(Library\ 3\ am.otf);
-}
 
 @font-face {
   font-family: Righteous;
   src: url(Righteous.ttf);
+} 
+@font-face {
+  font-family: Newake;
+  src: url(Modernist.otf);
 } 
