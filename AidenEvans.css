@@ -128,9 +128,9 @@ hr {
 
 @font-face {
   font-family: Righteous;
-  src: url(Righteous.ttf);
+  src: url(fonts/Righteous.ttf);
 } 
 @font-face {
   font-family: Newake;
-  src: url(Modernist.otf);
+  src: url(fonts/Modernist.otf);
 } 
